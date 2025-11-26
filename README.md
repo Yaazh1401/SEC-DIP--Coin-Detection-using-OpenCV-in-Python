@@ -2,8 +2,8 @@
 ## AIM :
 To detect and visualize the edges and contours of a coin using image processing techniques such as grayscale conversion, blurring, morphological operations, and Canny edge detection in OpenCV.
 ```
-NAME : M.Mounika
-REGISTER NUMBER : 212224040202
+NAME : JANANI K
+REGISTER NUMBER : 212224230102
 ```
 ## PROGRAM:
 ```
@@ -46,8 +46,8 @@ def present_results(original_image, processed_image):
     plt.show()
 
 # --- Main Execution ---
-image_path = 'coins.png'
-image = cv2.imread(image_path)
+
+image = cv2.imread("C:\\Users\\admin\\Downloads\\horse.jpg")
 
 if image is None:
     print("Error: Image not found. Check the file path.")
@@ -57,7 +57,8 @@ else:
     present_results(image, fracture_detected_image)
 ```
 ## OUTPUT:
-<img width="1238" height="615" alt="Screenshot 2025-11-10 221745" src="https://github.com/user-attachments/assets/40f28419-4ed0-4a45-8b1b-d694b99a1e6c" />
+
+<img width="1005" height="316" alt="image" src="https://github.com/user-attachments/assets/898bec80-aee8-466f-a2dd-c228eeb40692" />
 
 ## RESULT :
 Thus the program to detect the edges was executed successfully.
